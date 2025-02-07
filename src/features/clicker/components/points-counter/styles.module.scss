@@ -1,0 +1,28 @@
+.text {
+  height: 46px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    margin-top: 8px;
+    margin-right: 12px;
+  }
+}
+
+number-flow {
+  --number-flow-char-height: 0.85em;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.counter {
+  font-family: 'Simpsonfont', monospace;
+
+  & > div > span {
+    margin-left: 1px !important;
+    margin-right: 1px !important;
+    line-height: 44px !important;
+  }
+}

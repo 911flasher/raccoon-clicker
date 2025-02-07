@@ -1,0 +1,136 @@
+:root {
+  --vh: 1vh;
+
+  --accent-primary: #49AC2E;
+  --accent-primary-dark: #389739;
+  --accent-secondary: #FF6632;
+  --accent-additional: #85E056;
+
+  --background: #BFFCA8;
+  --button-bg-primary: #FFDF00;
+  --button-bg-secondary: #3BD0B2;
+  --border-color: #000000;
+
+  --text-primary: rgba(0, 0, 0, 1);
+  --text-secondary: rgba(255, 255, 255, 1);
+  --text-card-secondary: rgba(17, 17, 17, 1);
+
+  --card-regular: rgba(255, 255, 255, 1);
+  --card-secondary: rgba(255, 255, 255, 1);
+
+  --icon-shadow: linear-gradient(135deg, #0088CC 8%, #5865F2 8%, #4D5CFF 100%);
+  --icon-outer-background: rgba(255, 255, 255, 1);
+  --boost-icon-inner-background: linear-gradient(90deg, #3D1EFF -30%, #00E4C8 100%);
+  --boost-level-color: rgb(127, 255, 240);
+  --skin-icon-inner-background: var(--accent-secondary);
+
+  --app-padding-vertical: 16px;
+  --app-padding-horizontal: 16px;
+
+  --navigation-bar-height: 64px;
+  --navigation-bar-z-index: 98;
+
+  --base-block-height: 80px;
+
+  --bottom-sheet-background: #BFFCA8;
+  --bottom-sheet-drag-indicator-color: #111111;
+
+  --clicker-max-width: 400px;
+}
+
+@font-face {
+  font-family: 'Shantell Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/ShantellSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Simpsonfont';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/Simpsonfont.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Klyakson';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/Klyakson.otf) format('opentype');
+}
+
+html {
+  background: black;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background: var(--background);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  user-select: none;
+  color: var(--text-primary);
+  font-family: "Shantell Sans", sans-serif;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}

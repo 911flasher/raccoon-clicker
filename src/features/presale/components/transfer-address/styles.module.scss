@@ -1,0 +1,83 @@
+@import '../../../../core/styles/font-mixins.scss';
+
+.container {
+  margin-bottom: 16px;
+  border: 2px solid var(--border-color);
+  border-radius: 16px;
+  padding: 24px;
+  background-color: var(--card-regular);
+  color: #707070;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #b6b8bb;
+}
+
+.addressContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  padding: 14px 24px;
+  border: 2px solid var(--border-color);
+  border-radius: 16px;
+  background-color: var(--accent-primary-dark);
+}
+
+.address {
+  max-width: calc(100% - 40px);
+  color: var(--text-secondary);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.copyImg {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  img {
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    min-height: 22px;
+  }
+}
+
+.list {
+  @include bodyText;
+
+  margin: 0 0 2px 32px !important;
+}
+
+.table {
+  @include table;
+
+  width: 100%;
+  text-align: left;
+  border-collapse:collapse;
+  margin-bottom: 20px;
+
+  thead > tr {
+    color: var(--text-secondary);
+    background-color: var(--text-primary);
+  }
+
+  th, td {
+    padding: 4px;
+  }
+
+  tr {
+    border-bottom: 1px solid var(--border-color);
+  }
+}
+
+.withDiscount {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

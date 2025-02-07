@@ -1,0 +1,64 @@
+.container {
+  width: calc(100vw);
+  height: calc(100 * var(--vh));
+  overflow: scroll;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: calc(var(--app-padding-vertical)) calc(var(--app-padding-horizontal));
+}
+
+.modal {
+  width: 100%;
+  position: relative;
+  border: 2px solid var(--accent-primary);
+  border-radius: 20px;
+  background-color: var(--card-regular);
+  padding: 26px;
+  text-align: center;
+}
+
+.closeButton {
+  position: absolute;
+  top: 16px;
+  right: 14px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.imageContainer {
+  --side-margin: 24px;
+
+  width: calc(100% - var(--side-margin) * 2);
+  margin: 0 var(--side-margin) 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.itemImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.salesBadge {
+  width: 44px;
+  position: absolute;
+  top: 6px;
+  left: -8px;
+  transform: translateX(-50%);
+}
+
+.description {
+  margin: 20px 0;
+}

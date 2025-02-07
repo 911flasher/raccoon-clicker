@@ -1,0 +1,18 @@
+@import "../../styles/box-border-mixin";
+@import "../../styles/font-mixins";
+
+.button {
+  @include button;
+  @include boxBorder;
+
+  width: 100%;
+  padding: 16px 32px;
+  border-radius: 16px;
+  background: var(--button-bg-primary);
+  color: var(--text-primary);
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

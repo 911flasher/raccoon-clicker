@@ -1,0 +1,4 @@
+@mixin boxBorder {
+  border: 2px solid var(--border-color);
+  border-bottom-width: 5px;
+}

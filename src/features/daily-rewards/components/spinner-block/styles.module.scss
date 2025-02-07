@@ -1,0 +1,55 @@
+@import "../../../../core/styles/box-border-mixin";
+
+.container {
+  border: 2px solid #000000;
+  background-color: var(--background);
+  padding: 20px 26px;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  pointer-events: auto;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  margin-bottom: 12px;
+}
+
+.tickets {
+  display: flex;
+  margin-bottom: 12px;
+  gap: 8px;
+  line-height: 1;
+  align-items: center;
+
+  img {
+    width: 33px;
+    height: 21px;
+  }
+
+  span {
+    margin-bottom: 6px;
+  }
+}
+
+.button {
+  @include boxBorder;
+
+  padding: 8px 14px;
+  background-color: var(--accent-primary);
+  color: var(--text-secondary);
+  border-radius: 16px;
+  outline: none;
+}
+
+.prize {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}

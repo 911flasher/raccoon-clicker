@@ -1,0 +1,9 @@
+.container {
+  width: calc(100% - var(--app-padding-horizontal) * 2) !important;
+  max-width: calc(var(--clicker-max-width) - var(--app-padding-horizontal) * 2) !important;
+  position: fixed !important;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: calc(var(--app-padding-vertical) + 8px);
+  background-color: var(--accent-additional);
+}

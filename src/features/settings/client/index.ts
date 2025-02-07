@@ -1,0 +1,1 @@
+export { settingsClient } from './client'

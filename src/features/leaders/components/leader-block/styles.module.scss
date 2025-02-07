@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.place {
+  min-width: 32px;
+  height: 32px;
+  background: var(--card-secondary);
+  color: var(--text-card-secondary);
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+
+  p {
+    padding: 8px;
+  }
+}

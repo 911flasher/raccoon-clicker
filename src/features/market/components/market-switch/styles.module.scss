@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  border-radius: 9px;
+  background-color: var(--card-regular);
+  border: 1px solid #49AC2E;
+  overflow: hidden;
+
+  button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+}
+
+.item {
+  padding: 10px;
+  color: #0165FF;
+}
+
+.itemActive {
+  color: var(--text-secondary);
+  background-color: #49AC2E;
+}

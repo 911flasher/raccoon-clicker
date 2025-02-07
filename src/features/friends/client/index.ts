@@ -1,0 +1,1 @@
+export { friendsClient } from './client'

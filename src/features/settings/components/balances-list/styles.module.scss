@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 56px;
+    height: 56px;
+    min-width: 56px;
+    min-height: 56px;
+    margin-right: 8px;
+  }
+}
+
+.price {
+  margin-left: auto;
+}
+
+.connectWalletButton {
+  position: relative;
+  cursor: default;
+
+  button {
+    opacity: 0.3;
+  }
+}
+
+.soon {
+  width: 58px;
+  height: 25px;
+  padding-top: 2px;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  border: 1px solid #000000;
+  color: #fff;
+  background-color: #F85A5A;
+  transform: rotate(-10deg);
+  text-align: center;
+  border-radius: 4px;
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: #000000;
+}
+
+.refLinkContainer {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.refLink {
+  display: flex;
+  align-items: center;
+  background-color: #E2FED4;
+  color: var(--accent-additional);
+}
+
+.ref {
+  margin-left: auto;
+  margin-right: 8px;
+}

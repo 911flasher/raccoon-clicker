@@ -1,0 +1,23 @@
+.container {
+  width: 100vw;
+  min-height: calc(var(--vh) * 100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.innerContainer {
+  width: 100%;
+  max-width: var(--clicker-max-width);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+  padding: var(--app-padding-vertical) var(--app-padding-horizontal);
+}
+
+.withNav {
+  padding-bottom: calc(var(--navigation-bar-height) + var(--app-padding-vertical) * 2);
+}

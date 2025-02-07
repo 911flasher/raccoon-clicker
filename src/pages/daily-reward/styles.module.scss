@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.modalHeaderImage {
+  width: 255px;
+  height: 116px;
+  margin: 0 auto -5px;
+  position: relative;
+  z-index: 1;
+}
+
+.checkInDays {
+  margin-left: 8px;
+  margin-bottom: 24px;
+}
+
+.tablet {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 8px 14px !important;
+  margin-bottom: 16px;
+  z-index: 3;
+}
+
+.rewardsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 6px;
+  column-gap: 12px;
+}
+
+.reward {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0;
+  gap: 3px;
+  border-radius: 17px;
+  background-color: var(--background);
+
+  img {
+    max-width: 68px;
+  }
+}
+
+.day {
+  padding: 10px;
+  color: var(--text-secondary);
+  background-color: #389739;
+  border-radius: 17px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.prizeContainer {
+  width: 100%;
+  max-width: 351px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto 32px;
+
+  img {
+    width: 37px;
+    height: 37px;
+    margin-left: 8px;
+  }
+}
+
+.collectButton {
+  max-width: 297px;
+  margin: 0 auto 48px;
+}

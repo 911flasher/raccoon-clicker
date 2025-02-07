@@ -1,0 +1,68 @@
+@import "../../../../core/styles/box-border-mixin";
+
+.container {
+  width: 100%;
+  margin: 0 auto 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.row {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.topButton {
+  max-width: calc(33% - 4px);
+  border-radius: 16px;
+  border: 2px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4px 20px 8px;
+  text-align: center;
+  cursor: pointer;
+
+  div {
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  p {
+    color: var(--text-primary);
+  }
+
+  &:nth-child(1) {
+    color: #AF0C00;
+    background: var(--accent-secondary);
+  }
+
+  &:nth-child(2) {
+    color: #824118;
+    background: var(--button-bg-primary);
+  }
+
+  &:nth-child(3) {
+    color: #006A7D;
+    background: var(--button-bg-secondary);
+  }
+}
+
+.bottomButton {
+  @include boxBorder;
+
+  width: 100%;
+  border-radius: 16px;
+  background: var(--accent-primary);
+  color: var(--text-secondary);
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}

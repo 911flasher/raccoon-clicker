@@ -1,0 +1,1 @@
+export { guildsClient } from './client'

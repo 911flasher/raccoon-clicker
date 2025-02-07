@@ -1,0 +1,43 @@
+@import '../../../../core/styles/font-mixins';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  margin-bottom: 16px;
+}
+
+.title {
+  margin-bottom: 8px;
+}
+
+.description {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.priceTitle {
+  opacity: 0.5;
+}
+
+.price {
+  margin-bottom: 24px;
+}
+
+.button {
+  margin-bottom: 16px;
+}
+
+.link {
+  margin-bottom: 12px;
+  border: 3px solid var(--accent-primary);
+  color: var(--accent-primary);
+  background-color: #fff;
+
+  img {
+    margin-left: 4px;
+  }
+}

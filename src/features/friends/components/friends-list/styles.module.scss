@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.loaderContainer {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  margin-bottom: 16px;
+  text-align: center;
+}

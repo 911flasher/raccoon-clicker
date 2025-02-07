@@ -1,0 +1,51 @@
+.container {
+  width: 171px;
+  height: 232px;
+  position: relative;
+  padding-top: 28px;
+  margin-bottom: 20px;
+}
+
+.spinnerBack {
+  width: 171px;
+  height: 232px;
+  position: absolute;
+  top: 0;
+  left: 1px;
+}
+
+.spinnerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-51deg);
+
+  & > div {
+    width: 158px;
+    height: 158px;
+  }
+
+  img {
+    display: none;
+  }
+}
+
+.pin {
+  width: 18px;
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.ver {
+  position: absolute;
+  width: 1px;
+  height: 200px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: red;
+  z-index: 1000;
+}

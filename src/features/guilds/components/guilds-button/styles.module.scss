@@ -1,0 +1,21 @@
+.container {
+  position: fixed;
+  width: var(--clicker-max-width);
+  max-width: calc(100% - var(--app-padding-horizontal) * 2);
+  display: flex;
+  justify-content: flex-end;
+  bottom: calc(var(--app-padding-vertical) + var(--navigation-bar-height) + 24px);
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  text-decoration: none;
+  color: var(--text-primary);
+
+  div {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    pointer-events: auto;
+  }
+}

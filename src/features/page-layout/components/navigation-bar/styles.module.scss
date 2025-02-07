@@ -1,0 +1,50 @@
+@import '../../../../core/styles/box-border-mixin';
+
+.container {
+  @include boxBorder;
+
+  width: 316px;
+  height: var(--navigation-bar-height);
+  border-radius: 12px;
+  padding: 2px;
+  display: flex;
+  gap: 2px;
+  background: var(--button-bg-primary);
+  position: fixed;
+  left: 50%;
+  bottom: var(--app-padding-vertical);
+  transform: translateX(-50%);
+  z-index: var(--navigation-bar-z-index);
+}
+
+.link {
+  width: 60px;
+  position: relative;
+  height: 100%;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-card-secondary);
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  z-index: 2;
+
+  img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 4px;
+  }
+}
+
+.slider {
+  width: 60px;
+  height: calc(100% - 4px);
+  background: var(--card-secondary);
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+}

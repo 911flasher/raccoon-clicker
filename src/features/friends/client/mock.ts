@@ -1,0 +1,42 @@
+import { Friend } from '../types'
+
+export const mockFriends: Friend[] = [
+  {
+    id: 1,
+    place: 1,
+    name: 'Eve',
+    avatar: 'https://xsgames.co/randomusers/avatar.php?g=female',
+    profit: '25000',
+  },
+  { id: 2, place: 2, name: 'Olivia', profit: '24800' },
+  {
+    id: 3,
+    place: 3,
+    name: 'David',
+    avatar: 'https://xsgames.co/randomusers/avatar.php?g=male',
+    profit: '24700',
+  },
+  {
+    id: 4,
+    place: 4,
+    name: 'Kathy',
+    avatar: 'https://xsgames.co/randomusers/avatar.php?g=pixel',
+    profit: '23800',
+  },
+  { id: 5, place: 5, name: 'Carol', profit: '23200' },
+  { id: 6, place: 6, name: 'Leo', profit: '20000' },
+  { id: 7, place: 7, name: 'Rick', profit: '19800' },
+  { id: 8, place: 8, name: 'Jack', profit: '18900' },
+  { id: 9, place: 9, name: 'Hank', profit: '18100' },
+  { id: 10, place: 10, name: 'Alice', profit: '17700' },
+  { id: 11, place: 11, name: 'Mona', profit: '17600' },
+  { id: 12, place: 12, name: 'Nate', profit: '17050' },
+  { id: 13, place: 13, name: 'Sara', profit: '16900' },
+  { id: 14, place: 14, name: 'John', profit: '16700' },
+  { id: 15, place: 15, name: 'Ivy', profit: '16500' },
+  { id: 16, place: 16, name: 'Quinn', profit: '16400' },
+  { id: 17, place: 17, name: 'Frank', profit: '16300' },
+  { id: 18, place: 18, name: 'Grace', profit: '15200' },
+  { id: 19, place: 19, name: 'Pete', profit: '14100' },
+  { id: 20, place: 20, name: 'Bob', profit: '9800' },
+].map((leader) => ({ ...leader, id: String(leader.id) }))

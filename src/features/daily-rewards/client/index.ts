@@ -1,0 +1,1 @@
+export { dailyRewardsClient } from './client'

@@ -1,0 +1,40 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s all;
+  margin: 0 auto 48px;
+  position: relative;
+}
+
+.clickerWrapper {
+  width: 100%;
+  aspect-ratio: 1/1;
+  position: relative;
+  outline: none;
+  border-radius: 50%;
+  background: #70DB53;
+  border: 8px solid #49AC2E;
+}
+
+.clickerInnerCircle {
+  margin: 40px;
+  aspect-ratio: 1/1;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clickerImage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 50%;
+  max-height: 100%;
+}

@@ -1,0 +1,23 @@
+.container {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+  margin-right: 8px;
+  border-right: 2px solid #BFFCA8;
+}
+
+.place {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 16px;
+    height: 16px;
+  }
+}

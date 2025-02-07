@@ -1,0 +1,41 @@
+@import '../../styles/font-mixins';
+
+.h1 {
+  @include h1;
+}
+
+.h2 {
+  @include h2;
+}
+
+.h3 {
+  @include h3;
+}
+
+.h4 {
+  @include h4;
+}
+
+.bodyText {
+  @include bodyText;
+}
+
+.number {
+  @include number;
+}
+
+.button {
+  @include button;
+}
+
+.menuText {
+  @include menuText;
+}
+
+.table {
+  @include table;
+}
+
+.smallPrice {
+  @include smallPrice;
+}

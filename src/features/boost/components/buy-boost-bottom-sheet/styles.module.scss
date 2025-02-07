@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  margin-bottom: 16px;
+}
+
+.title {
+  margin-bottom: 8px;
+}
+
+.description {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.priceTitle {
+  opacity: 0.5;
+}
+
+.price {
+  margin-bottom: 24px;
+}
+
+.button {
+  margin-bottom: 16px;
+}
+
+.maxLevelContainer {
+  margin-bottom: 32px;
+  position: relative;
+
+  --top-indent: 12px;
+  --horizontal-indent: -48px;
+}

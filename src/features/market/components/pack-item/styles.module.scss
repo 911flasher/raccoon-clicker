@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  max-width: calc(50% - 5px);
+  height: 210px;
+  padding: 10px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #49AC2E;
+  background-color: var(--card-regular);
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.imageContainer {
+  max-width: 100px;
+  max-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.name {
+  max-width: 100%;
+  margin-bottom: 6px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  img {
+    width: 16px;
+    height: 16px;
+  }
+}

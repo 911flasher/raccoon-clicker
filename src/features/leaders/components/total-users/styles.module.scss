@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.price {
+  margin-bottom: 20px;
+}
+
+.stats {
+  width: 224px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  img {
+    height: 40px;
+    margin-right: 20px;
+  }
+}
+
+.part {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

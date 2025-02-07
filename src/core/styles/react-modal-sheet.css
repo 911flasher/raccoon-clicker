@@ -1,0 +1,25 @@
+.react-modal-sheet-container {
+  background: var(--bottom-sheet-background) !important;
+  border-top-right-radius: 32px !important;
+  border-top-left-radius: 32px !important;
+}
+
+.react-modal-sheet-backdrop {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.react-modal-sheet-content {
+  padding: var(--app-padding-vertical) var(--app-padding-horizontal);
+}
+
+.react-modal-sheet-header {
+  height: 30px !important;
+}
+
+.react-modal-sheet-drag-indicator {
+  background-color: var(--bottom-sheet-drag-indicator-color) !important;
+}
+
+.ticker-column-container {
+  line-height: 47px !important;
+}
